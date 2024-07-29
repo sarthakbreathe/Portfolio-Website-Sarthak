@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+		<a href="#" class="logo-holder">
+			<div class="logo">ST</div>
+			<div class="logo-text">Personal Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#experience">Projects</a>
+				</li>
+				<li>
+					<a href="sarthaktadas902@gmail.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+    
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Sarthak Tadas
+					</h1>
+					<p>
+						A Web Developer who loves to build website using HTML, CSS and Javascript. <span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="DOC-20240727-WA0046.doc" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:sarthaktadas902@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="#">
+							<img src="github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="#">
+							<img src="linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="sarthakppphoto12.jpg" alt="Sarthak" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="html.png" alt="HTML" width="128" />
+					<img src="css.png" alt="CSS" width="128" />
+					<img src="javascript.png" alt="JS" width="128" />
+					<img src="react.png" width="128" alt="React" />
+					<img src="vscode.png" width="128" alt="VS Code" />
+					<img src="html.png" alt="HTML" width="128" />
+					<img src="css.png" alt="CSS" width="128" />
+					<img src="javascript.png" alt="JS" width="128" />
+					<img src="react.png" width="128" alt="React" />
+					<img src="vscode.png" width="128" alt="VS Code" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>React</li>
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Express</li>
+						<li>C++</li>
+						<li>Java</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi I'm Sarthak Tadas, a designer and developer who creates educational content on YouTube to teach others about HTML, CSS and JavaScript.  I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days!
+					</p>
+					<p>
+						I'm currently working on a project that uses Azure AI to create a chatbot that can help answer questions about web development.  I'm also working on a project that uses React and Next.js to create a portfolio website design that looks good.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="experience" class="work-experience container">
+			<h2>
+				<small>Completed</small>
+				Projects
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="Screenshotnetflix.png" alt="Netflix UI Clone" width="100%" />
+							<figcaption>
+								Netflix UI Clone 
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Netflix UI Clone</h3>
+					<div>HTML-CSS-JAVASCRIPT</div>
+					<p>Created a Netflix user interface  using HTML, CSS, JS.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="supermarketScreenshot.png" alt="Super Market Billling System" width="100%" />
+							<figcaption>
+								Super Market Billing System
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Super Market Billing System</h3>
+					<div>C++</div>
+					<p>It create a system which can manage the items of the store, make a bill for customers and manage them. </p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="screenshotperslonalst.png" alt="Workplace 3 - Chamber of Commerce" width="100%" />
+							<figcaption>
+								Personal Portfolio Website
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Personal Portfolio Website</h3>
+					<div>HTML-CSS-JAVASCRIPT</div>
+					<p>Built a personal portfolio website using HTML,CSS,JS with small animations. </p>
+				</article>	
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
